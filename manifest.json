@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Logo Changer",
+  "version": "1.0",
+  "description": "Change the Gmail logo to a custom image.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["imgs/custom_logo.png"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ]
+}
