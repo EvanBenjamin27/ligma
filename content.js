@@ -1,9 +1,8 @@
 'use strict';
 
-// Get the local image URL from the extension
+// You can also use a url like      .getURL("example.com/example.png");
 const customLogoURL = chrome.runtime.getURL('imgs/custom_logo.png');
 
-// Function to replace the Gmail logo
 const replaceLogo = () => {
     const logo = document.querySelector('a[aria-label="Gmail"] img');
     if (logo) {
@@ -14,5 +13,4 @@ const replaceLogo = () => {
     }
 };
 
-// Start the logo replacement
 replaceLogo();
