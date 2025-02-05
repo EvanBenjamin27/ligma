@@ -5,7 +5,7 @@
 
 # Install Extension
 
-First, go to **chrome://extensions/** in Chrome. Toggle developer mode in the top right corner so that it is enabled. A section with 3 buttons will appear, click on "Load unpacked".
+First, go to **chrome://extensions/** in Chrome. Toggle developer mode in the top right corner so that it is enabled. A section with 3 buttons will appear, click on "Load unpacked". Locate the downloaded **and extracted!** folder wherever your downloaded it and select that folder
 
 ## Replace Logo
 
