@@ -1,5 +1,5 @@
 # Gmail -> Ligma
-
+(Aka: Ligmail)
 (or other logo) is a Chrome Extension that will swap the Gmail Logo in the top left corner of mail.google.com.
 
 
